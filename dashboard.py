@@ -127,36 +127,36 @@ hr { border-color: #e2e8f0 !important; margin: 1rem 0 !important; }
 # expand the dashboard to additional benchmarks.
 
 TICKERS = {
-    "AGG US":     {"name": "BLOOMBERG US AGGREGATE INDEX",          "symbol": "AGG"},
-    "GOVT US":    {"name": "BLOOMBERG US GOVERNMENT INDEX",         "symbol": "GOVT"},
-    "HYG US":     {"name": "BLOOMBERG US HIGH YIELD",               "symbol": "HYG"},
-    "BKLN US":    {"name": "BLOOMBERG US HIGH YIELD / LTRSA LEV LOANS", "symbol": "BKLN"},
-    "STIP US":    {"name": "BLOOMBERG US TIPS 1-10 YEAR INDEX",     "symbol": "STIP"},
-    "USHY US":    {"name": "CDX (US HY PROXY)",                     "symbol": "USHY"},
-    "EMLC US":    {"name": "CHINA REAL ESTATE HIGH YIELD",          "symbol": "EMLC"},
-    "QAI US":     {"name": "EQUITY MARKET NEUTRAL",                 "symbol": "QAI"},
-    "MNA US":     {"name": "EVENT DRIVEN (EW)",                     "symbol": "MNA"},
-    "IAUM US":    {"name": "IAUM GOLD TRUST MICRO",                 "symbol": "IAUM"},
-    "BIL US":     {"name": "ICE BOFA 3-MONTH US T-BILL",            "symbol": "BIL"},
-    "IAU US":     {"name": "ISHARES GOLD TRUST",                    "symbol": "IAU"},
-    "IGSB US":    {"name": "ITRAXX (US IG PROXY)",                  "symbol": "IGSB"},
-    "EMB US":     {"name": "JPM EMBI GLOBAL",                       "symbol": "EMB"},
-    "AAXJ US":    {"name": "MSCI AC ASIA PACIFIC",                  "symbol": "AAXJ"},
-    "ACWI US":    {"name": "MSCI AC WORLD IMI",                     "symbol": "ACWI"},
-    "IPAC US":    {"name": "MSCI ASIA PACIFIC INDEX",               "symbol": "IPAC"},
-    "IEFA US":    {"name": "MSCI EAFE IMI",                         "symbol": "IEFA"},
-    "IEMG US":    {"name": "MSCI EMERGING MARKETS IMI",             "symbol": "IEMG"},
-    "VLUE US":    {"name": "MSCI VALUE - GROWTH",                   "symbol": "VLUE"},
-    "URTH US":    {"name": "MSCI WORLD",                            "symbol": "URTH"},
-    "NDX Index":  {"name": "NASDAQ 100 TR",                         "symbol": "^NDX"},
-    "RTY Index":  {"name": "RUSSELL 2000 INDEX",                    "symbol": "^RUT"},
-    "IWV US":     {"name": "RUSSELL 3000 INDEX",                    "symbol": "IWV"},
-    "XLE US":     {"name": "S&P 500 ENERGY",                        "symbol": "XLE"},
-    "SPX Index":  {"name": "S&P 500 INDEX",                         "symbol": "^GSPC"},
-    "XLU US":     {"name": "S&P 500 UTILITIES",                     "symbol": "XLU"},
-    "XBI US":     {"name": "S&P BIOTECH INDEX",                     "symbol": "XBI"},
-    "URNM US":    {"name": "SPROTT URANIUM MINERS",                 "symbol": "URNM"},
-    "U-UN.TO":    {"name": "URANIUM PARTICIPATION (U/U CN)",        "symbol": "U-UN.TO"},
+    "AGG US":     {"name": "BLOOMBERG US AGGREGATE INDEX",          "symbol": "AGG",     "bbg": "AGG US Equity"},
+    "GOVT US":    {"name": "BLOOMBERG US GOVERNMENT INDEX",         "symbol": "GOVT",    "bbg": "GOVT US Equity"},
+    "HYG US":     {"name": "BLOOMBERG US HIGH YIELD",               "symbol": "HYG",     "bbg": "HYG US Equity"},
+    "BKLN US":    {"name": "BLOOMBERG US HIGH YIELD / LTRSA LEV LOANS", "symbol": "BKLN","bbg": "BKLN US Equity"},
+    "STIP US":    {"name": "BLOOMBERG US TIPS 1-10 YEAR INDEX",     "symbol": "STIP",    "bbg": "STIP US Equity"},
+    "USHY US":    {"name": "CDX (US HY PROXY)",                     "symbol": "USHY",    "bbg": "USHY US Equity"},
+    "EMLC US":    {"name": "CHINA REAL ESTATE HIGH YIELD",          "symbol": "EMLC",    "bbg": "EMLC US Equity"},
+    "QAI US":     {"name": "EQUITY MARKET NEUTRAL",                 "symbol": "QAI",     "bbg": "QAI US Equity"},
+    "MNA US":     {"name": "EVENT DRIVEN (EW)",                     "symbol": "MNA",     "bbg": "MNA US Equity"},
+    "IAUM US":    {"name": "IAUM GOLD TRUST MICRO",                 "symbol": "IAUM",    "bbg": "IAUM US Equity"},
+    "BIL US":     {"name": "ICE BOFA 3-MONTH US T-BILL",            "symbol": "BIL",     "bbg": "BIL US Equity"},
+    "IAU US":     {"name": "ISHARES GOLD TRUST",                    "symbol": "IAU",     "bbg": "IAU US Equity"},
+    "IGSB US":    {"name": "ITRAXX (US IG PROXY)",                  "symbol": "IGSB",    "bbg": "IGSB US Equity"},
+    "EMB US":     {"name": "JPM EMBI GLOBAL",                       "symbol": "EMB",     "bbg": "EMB US Equity"},
+    "AAXJ US":    {"name": "MSCI AC ASIA PACIFIC",                  "symbol": "AAXJ",    "bbg": "AAXJ US Equity"},
+    "ACWI US":    {"name": "MSCI AC WORLD IMI",                     "symbol": "ACWI",    "bbg": "ACWI US Equity"},
+    "IPAC US":    {"name": "MSCI ASIA PACIFIC INDEX",               "symbol": "IPAC",    "bbg": "IPAC US Equity"},
+    "IEFA US":    {"name": "MSCI EAFE IMI",                         "symbol": "IEFA",    "bbg": "IEFA US Equity"},
+    "IEMG US":    {"name": "MSCI EMERGING MARKETS IMI",             "symbol": "IEMG",    "bbg": "IEMG US Equity"},
+    "VLUE US":    {"name": "MSCI VALUE - GROWTH",                   "symbol": "VLUE",    "bbg": "VLUE US Equity"},
+    "URTH US":    {"name": "MSCI WORLD",                            "symbol": "URTH",    "bbg": "URTH US Equity"},
+    "NDX Index":  {"name": "NASDAQ 100 TR",                         "symbol": "^NDX",    "bbg": "NDX Index"},
+    "RTY Index":  {"name": "RUSSELL 2000 INDEX",                    "symbol": "^RUT",    "bbg": "RTY Index"},
+    "IWV US":     {"name": "RUSSELL 3000 INDEX",                    "symbol": "IWV",     "bbg": "IWV US Equity"},
+    "XLE US":     {"name": "S&P 500 ENERGY",                        "symbol": "XLE",     "bbg": "XLE US Equity"},
+    "SPX Index":  {"name": "S&P 500 INDEX",                         "symbol": "^GSPC",   "bbg": "SPX Index"},
+    "XLU US":     {"name": "S&P 500 UTILITIES",                     "symbol": "XLU",     "bbg": "XLU US Equity"},
+    "XBI US":     {"name": "S&P BIOTECH INDEX",                     "symbol": "XBI",     "bbg": "XBI US Equity"},
+    "URNM US":    {"name": "SPROTT URANIUM MINERS",                 "symbol": "URNM",    "bbg": "URNM US Equity"},
+    "U-UN.TO":    {"name": "URANIUM PARTICIPATION (U/U CN)",        "symbol": "U-UN.TO", "bbg": "U/U CN Equity"},
 }
 
 # Lookback offsets used by both heatmaps
@@ -168,10 +168,87 @@ MONTH_OFFSETS = [30 * i for i in range(1, 13)]
 FULL_FETCH_START = datetime(1950, 1, 1)
 
 
+def _check_bloomberg() -> bool:
+    """Return True if Bloomberg Terminal is reachable on localhost:8194."""
+    if "bbg_available" in st.session_state:
+        return st.session_state["bbg_available"]
+    try:
+        import blpapi
+        opts = blpapi.SessionOptions()
+        opts.setServerHost("localhost")
+        opts.setServerPort(8194)
+        session = blpapi.Session(opts)
+        ok = session.start()
+        if ok:
+            session.stop()
+        st.session_state["bbg_available"] = ok
+        return ok
+    except Exception:
+        st.session_state["bbg_available"] = False
+        return False
+
+
+def _fetch_bloomberg_batch(bbg_tickers: list, start: datetime) -> dict:
+    """Open one Bloomberg session, batch-fetch all tickers, return {bbg_ticker: df}."""
+    import blpapi
+
+    opts = blpapi.SessionOptions()
+    opts.setServerHost("localhost")
+    opts.setServerPort(8194)
+    session = blpapi.Session(opts)
+    if not session.start():
+        raise ConnectionError("Bloomberg Terminal not reachable")
+    if not session.openService("//blp/refdata"):
+        raise ConnectionError("Bloomberg //blp/refdata unavailable")
+
+    svc = session.getService("//blp/refdata")
+    req = svc.createRequest("HistoricalDataRequest")
+    for t in bbg_tickers:
+        req.append("securities", t)
+    req.append("fields", "PX_LAST")
+    req.append("fields", "VOLUME")
+    req.set("startDate",            start.strftime("%Y%m%d"))
+    req.set("endDate",              datetime.today().strftime("%Y%m%d"))
+    req.set("periodicitySelection", "DAILY")
+    req.set("adjustmentSplit",      True)
+    req.set("adjustmentFollowDPDF", True)
+    session.sendRequest(req)
+
+    raw = {t: [] for t in bbg_tickers}
+    while True:
+        ev = session.nextEvent(5000)
+        for msg in ev:
+            if not msg.hasElement("securityData"):
+                continue
+            sec  = msg.getElement("securityData")
+            name = sec.getElementAsString("security")
+            if sec.hasElement("securityError"):
+                continue
+            fd = sec.getElement("fieldData")
+            for i in range(fd.numValues()):
+                row = fd.getValueAsElement(i)
+                dt  = pd.Timestamp(row.getElementAsDatetime("date"))
+                px  = row.getElementAsFloat("PX_LAST") if row.hasElement("PX_LAST") else np.nan
+                vol = row.getElementAsFloat("VOLUME")  if row.hasElement("VOLUME")  else 0.0
+                raw[name].append({"Date": dt, "Close": px, "Volume": vol})
+        if ev.eventType() == blpapi.Event.RESPONSE:
+            break
+
+    session.stop()
+
+    result = {}
+    for t, rows in raw.items():
+        if rows:
+            df = pd.DataFrame(rows).set_index("Date").sort_index().dropna(subset=["Close"])
+            df.index.name = "Date"
+            result[t] = df
+    return result
+
+
 @st.cache_data(ttl=3600)
-def load_data(symbol: str, start: datetime) -> pd.DataFrame:
-    end = datetime.today()
-    df = yf.download(symbol, start=start, end=end, auto_adjust=True, progress=False)
+def _load_yahoo(symbol: str, start: datetime) -> pd.DataFrame:
+    df = yf.download(symbol, start=start, end=datetime.today(),
+                     auto_adjust=True, progress=False)
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
     return df[["Close", "Volume"]].dropna().rename_axis("Date")
@@ -193,11 +270,26 @@ def compute_indicators(df: pd.DataFrame) -> pd.DataFrame:
 
 
 @st.cache_data(ttl=3600)
-def load_all_tickers(ticker_keys: tuple) -> dict:
+def load_all_tickers(ticker_keys: tuple, use_bloomberg: bool) -> dict:
     result = {}
+
+    if use_bloomberg:
+        bbg_to_label = {TICKERS[l]["bbg"]: l for l in ticker_keys}
+        try:
+            dfs = _fetch_bloomberg_batch(list(bbg_to_label.keys()), FULL_FETCH_START)
+            for bbg_t, df in dfs.items():
+                label = bbg_to_label.get(bbg_t)
+                if label and not df.empty:
+                    result[label] = compute_indicators(df)
+        except Exception:
+            pass  # fall through to Yahoo for anything that failed
+
+    # Yahoo fallback for any ticker Bloomberg didn't return
     for label in ticker_keys:
-        raw = load_data(TICKERS[label]["symbol"], FULL_FETCH_START)
-        result[label] = compute_indicators(raw)
+        if label not in result:
+            raw = _load_yahoo(TICKERS[label]["symbol"], FULL_FETCH_START)
+            result[label] = compute_indicators(raw)
+
     return result
 
 # ── Indicator helpers ─────────────────────────────────────────────────────────
@@ -380,9 +472,23 @@ st.sidebar.markdown("## Fund Benchmark\nDashboard")
 st.sidebar.markdown("---")
 page = st.sidebar.radio("Navigation", ["Price Chart", "Chart Grid", "RSI Heatmap", "SMA Heatmap", "Insights"])
 st.sidebar.markdown("---")
+
+bbg_on = _check_bloomberg()
+if bbg_on:
+    st.sidebar.markdown(
+        "<div style='background:#1a3a2a;border:1px solid #27ae60;border-radius:6px;"
+        "padding:6px 10px;font-size:0.78rem;color:#2ecc71;'>"
+        "&#9679; Bloomberg Terminal</div>",
+        unsafe_allow_html=True)
+else:
+    st.sidebar.markdown(
+        "<div style='background:#2a2a1a;border:1px solid #f39c12;border-radius:6px;"
+        "padding:6px 10px;font-size:0.78rem;color:#f39c12;'>"
+        "&#9679; Yahoo Finance</div>",
+        unsafe_allow_html=True)
 st.sidebar.caption(f"Data refreshed hourly  \nAs of {datetime.today().strftime('%B %d, %Y')}")
 
-all_dfs = load_all_tickers(tuple(TICKERS.keys()))
+all_dfs = load_all_tickers(tuple(TICKERS.keys()), use_bloomberg=bbg_on)
 ticker_data = {label: {"name": TICKERS[label]["name"], "df": all_dfs[label]} for label in TICKERS}
 
 PERIOD_OPTIONS = {
