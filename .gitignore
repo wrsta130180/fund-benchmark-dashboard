@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.claude/
+user_prefs.json
+test_results.log
+*.log
+.env
