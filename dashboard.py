@@ -183,8 +183,9 @@ def _check_bloomberg() -> bool:
             session.stop()
         st.session_state["bbg_available"] = ok
         return ok
-    except Exception:
+    except Exception as e:
         st.session_state["bbg_available"] = False
+        st.sidebar.error(f"Bloomberg error: {e}")
         return False
 
 
