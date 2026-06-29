@@ -5,3 +5,5 @@ user_prefs.json
 test_results.log
 *.log
 .env
+.streamlit/secrets.toml
+market_snapshot.js
